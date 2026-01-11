@@ -12,13 +12,22 @@ A comprehensive Python package for data quantification, statistical analysis, an
 
 ## Installation
 
+### Option 1: Clone and Install
+
 1. Clone this repository:
 ```bash
 git clone https://github.com/studentIIScAdityaDe/QUANTIFICATION.git
 cd QUANTIFICATION
 ```
 
-2. Install required dependencies:
+2. Install the package and dependencies:
+```bash
+pip install -e .
+```
+
+### Option 2: Install Dependencies Only
+
+If you just want to run the examples without installing the package:
 ```bash
 pip install -r requirements.txt
 ```
@@ -244,7 +253,7 @@ Contributions are welcome! Feel free to:
 
 ## License
 
-This project is open source and available for educational purposes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Support
 
