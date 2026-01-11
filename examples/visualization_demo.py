@@ -4,6 +4,12 @@ Example: Data Visualization
 This script demonstrates how to use the quantification package for data visualization.
 """
 
+import sys
+from pathlib import Path
+
+# Add parent directory to path to import quantification module
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from quantification import plot_distribution, plot_comparison, plot_correlation
 import numpy as np
 

@@ -4,6 +4,12 @@ Example: Basic Statistical Analysis
 This script demonstrates how to use the quantification package for basic statistical analysis.
 """
 
+import sys
+from pathlib import Path
+
+# Add parent directory to path to import quantification module
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from quantification import (
     calculate_mean,
     calculate_median,
